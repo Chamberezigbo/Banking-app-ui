@@ -1,0 +1,93 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>signup</title>
+    <link rel="stylesheet" href="res/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="res/bootstrap/icons-1.1.0/icons" />
+    <link rel="stylesheet" href="res/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+</head>
+
+<body>
+    <!-- Paste this code after body tag -->
+    <div class="se-pre-con"></div>
+    <!-- Ends -->
+
+    <main>
+        <div class="container d-none" id="errorDiv">
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <span id="errorSpan">
+                    An example danger alert with an icon
+                </span>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 signup-section-wrapper">
+                    <div class="brand-wrapper">
+                        <a href="index.html"><img src="res/images/monzo.png" alt="logo" class="logo"></a>
+                    </div>
+                    <div class="signup-wrapper my-auto">
+                        <h1 class="signup-title" style="font-family:fredokaone-regular;">Sign Up With Us </h1>
+                        <form action="#!">
+                            <div class="form-group">
+                                <label for="email" style="font-family:fredokaone-regular;">Email</label>
+                                <input type="email" name="email" id="email" class="form-control"
+                                    placeholder="email@example.com" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="password" style="font-family:fredokaone-regular;">First Name</label>
+                                <input type="text" name="first name" id="fName" class="form-control"
+                                    placeholder="enter your first name" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="password" style="font-family:fredokaone-regular;">Last Name</label>
+                                <input type="text" name="first name" id="lName" class="form-control"
+                                    placeholder="enter your last name" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="password" style="font-family:fredokaone-regular;">Password</label>
+                                <input type="password" name="password" id="password" class="form-control"
+                                    placeholder="enter your passsword" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="password" style="font-family:fredokaone-regular;">Confirm Password</label>
+                                <input type="password" name="password" id="con-password" class="form-control"
+                                    placeholder="confirm your passsword" required>
+                            </div>
+                            <a onclick="signUp()"><input name="login" id="login" class="btn btn-block signup-btn"
+                                    type="button" value="Sign Up" style="font-family:fredokaone-regular;"></a>
+                        </form>
+                        <!-- <a href="#!" class="forgot-password-link">Forgot password?</a> -->
+                        <p class="signup-wrapper-footer-text" style="font-family:fredokaone-regular;">Already have an
+                            account? <a href="login.html" class="text-reset">Login here</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 px-0 d-none d-sm-block">
+                    <img src="res/images/atm.jpg" alt="login image" class="signup-img">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script type="text/javascript" src="res/bootstrap/js/popper.js"></script>
+    <script type="text/javascript" src="res/bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap/js/bootstrap.js"></script>
+    <script src="res/js/wow.min_.js"></script>
+    <!-- for loader -->
+    <script src="res/js/loader.js"></script>
+    <!-- for Api consumption -->
+    <script src="res/js/app.js"></script>
+
+</body>

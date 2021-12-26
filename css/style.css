@@ -1,0 +1,321 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Hind Guntur', sans-serif;
+    background-color: #efedea;
+}
+
+/* navbar-styles */
+.nav-color{
+ color:#48426d;
+}
+.btn-bg{
+    background-color: #f0c38e;
+}
+/* pseudo-classes */
+a.nav-color:link{
+
+    color: #48426d;
+}
+.sl{
+  text-align: justify;
+  letter-spacing: 1px;
+}
+.top{
+  margin-top: 100px;
+}
+a.nav-color:visited {
+      color: #48426d;
+  }
+a.nav-color:hover{
+    text-underline-position: below;
+    text-decoration: underline;
+    margin-top: 7px;
+    color: #48426d;
+}
+a.nav-color:active{
+    color: white;
+  }
+/* end pseudo classes */
+.la{
+  height: 93.5%;
+}
+.flat{
+  margin-left: 150px;
+  margin-top: 90px;
+}
+.zax{
+  margin-top: 100px;
+}
+.ku{
+  margin-top: 50px;
+}
+li.active{
+    text-decoration: underline;
+}
+/* end navbar-styles */
+
+/* carousel styles */
+
+.carousel-p{
+    word-spacing: 10px;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+.lead{
+    background-color: #48426d;
+    color: #f0c38e;
+    font-weight: bold;
+}
+.lead:hover{
+    color: #f0c38e;
+}
+/* end carousel */
+
+/* body styles */
+
+.btn-about{
+    border-color: #48426d;
+}
+.btn-about:hover{
+    background-color: #48426d;
+    color:white;
+}
+div.admissions{
+    margin-top: 100px;
+}
+.admit{
+    background-color: #48426d;
+}
+
+ div.grow{
+     height: 400px;
+ }
+ .btn-admit:hover{
+    background-color: #f0c38e;
+    color: black;
+ }
+ .news{
+     background-color: #006a4d;
+ }
+ .body-hover:hover{
+     background-color: #48426d;
+     color: white;
+ }
+
+div.no{
+    font-size: 50px;
+}
+div.caption{
+    font-size: 20px;
+}
+div.stat{
+    background-color: darksalmon;
+}
+div.stat2{
+    background-color: #f0c38e;
+}
+    .divider {border: 1px solid #ccc;}
+    img {width:100%;}
+
+     .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    div.news-bg{
+        background-image: url(../res/images/kid6.jpg);
+        background-size: cover;
+        height: 300px;
+    }
+    div.event-bg{
+        background-image: url(../res/images/learn3.jpg);
+        background-size: cover;
+        height: 300px;
+    }
+    div.gallery-bg{
+        background-image: url(../res/images/kid9.jpg);
+        background-size: cover;
+        height: 300px;
+    }
+    div.contact-bg{
+        background-image: url(../res/images/kid1.jpg);
+        background-size: cover;
+        height: 200px;
+    }s
+    div.newss{
+        cursor: pointer;
+    }
+
+
+    /***** Gallery *****/
+
+.gallery-box {
+    padding-top: 30px;
+}
+.gallery-box img {
+    cursor: pointer;
+}
+
+.carousel .carousel-indicators {
+    bottom: -20px;
+}
+.carousel .carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #5a6268;
+}
+
+.carousel .carousel-inner {
+    padding-bottom: 40px;
+}
+
+.carousel .carousel-control-next,
+.carousel .carousel-control-prev {
+    top: auto;
+    border: 0;
+}
+.fela{
+  width: 25%;
+}
+
+
+/* media queries */
+@media screen and (max-width: 480px) {
+    .none{
+        display: none;
+    }
+    .first{
+        height: 70vh;
+        min-height: 500px;
+        background: url(../res/images/carousel1.jpg) no-repeat center center scroll;
+        background-size: cover;
+    }
+    .second{
+        height: 70vh;
+        min-height: 350px;
+        background: url(../res/images/carousel2.jpg) no-repeat center center scroll;
+        background-size: cover;
+    }
+    .third{
+        height: 70vh;
+        min-height: 350px;
+        background: url(../res/images/learn5.jpg) no-repeat center center scroll;
+        background-size: cover;
+    }
+   .text{
+       font-size: 30px;
+   }
+   .btn-about{
+    border-color: #48426d;
+    }
+
+    .btn-about:hover{
+        background-color: #48426d;
+        color:white;
+    }
+    div.smallS{
+        text-align: left;
+    }
+    .fe{
+      margin-bottom: 30px;
+    }
+    .flat{
+      margin-left: 120px;
+      margin-top: -20px;
+    }
+    .ti{
+      text-align: center;
+      margin-top: 20px;
+    }
+    .kuti{
+      text-align: justify;
+    }
+    .fela{
+      margin-left: 50px;
+      width: 70%;
+    }
+    .ar{
+      text-align: center;
+    }
+    .ku{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .none{
+        display: block;
+    }
+
+    .first{
+        height: 70vh;
+        min-height: 500px;
+        background: url(../res/images/carousel1.jpg) no-repeat center center scroll;
+        background-size: cover;
+    }
+    .second{
+        height: 70vh;
+        min-height: 500px;
+        background: url(../res/images/carousel2.jpg) no-repeat center center scroll;
+        background-size: cover;
+    }
+    .third{
+        height: 70vh;
+        min-height: 500px;
+        background: url(../res/images/learn5.jpg) no-repeat center center scroll;
+        background-size: cover;
+    }
+    .btn-about{
+        border-color: #48426d;
+    }
+    .btn-about:hover{
+        background-color: #48426d;
+        color:white;
+    }
+    div.smallS{
+        text-align: center;
+    }
+    /* div.grow{
+        height: 600px;
+    } */
+    .fe{
+      margin-bottom: 30px;
+    }
+
+  }
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+}

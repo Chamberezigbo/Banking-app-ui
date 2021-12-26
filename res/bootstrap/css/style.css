@@ -1,0 +1,309 @@
+/* nav bar styles */
+
+.navs{
+    background-color:rgb(17, 30, 108);
+    box-shadow: 2px 2px 2px white;
+}
+ a.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255,239,0);
+    text-decoration-thickness: 2em;
+  
+ }
+ a.active-h{
+   border: 1px dotted yellow;
+ }
+ 
+/* end nav style */
+
+/* carousel */
+#introduction{
+  margin-top: 75px;
+}
+ .slide-1{
+    height: 70vh;
+    min-height: 350px;
+    /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+    background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/back3.JPG) no-repeat center center scroll; 
+    background-size: cover;
+  }
+  .slide-11{
+   height: 1vh;
+    min-height: 300px;
+    /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+    background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/back3.JPG) no-repeat center center scroll; 
+    background-size: cover;
+  }
+  .slide-2{
+    height: 70vh;
+    min-height: 350px;
+    /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+    background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/images/background2.jpg) no-repeat center center scroll; 
+    background-size: cover;
+  }
+  .slide-3{
+    height: 70vh;
+    min-height: 350px;
+    /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+    background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/back10.JPG) no-repeat center center scroll; 
+    background-size: cover;
+  }
+  .slide-33{
+    height: 70vh;
+    min-height: 300px;
+    /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+    background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/back10.JPG) no-repeat center center scroll; 
+    background-size: cover;
+  }
+  .slide-34{
+    height: 1vh;
+    min-height: 320px;
+    /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+    background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/back10.JPG) no-repeat center center scroll; 
+    background-size: cover;
+  }
+  .slide-4{
+    height: 1vh;
+    min-height: 300px;
+    /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+    background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,252,0.4)), url(../../assets/EDITED/lab4.JPG) no-repeat center center scroll; 
+    background-size: cover;
+  }
+  .slide-5{
+    height: 1vh;
+    min-height: 300px;
+    background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/comp8.JPG) no-repeat center center scroll; 
+    background-size: cover;
+  }
+  /* end carousel */
+
+  /* body styles */
+  #pointer {
+    width: 250px;
+    height: 40px;
+    position: relative;
+    background:rgb(17, 30, 108);
+    color: #fff;
+    padding-left: 30px;
+    margin-bottom: 10px;
+
+}
+  #pointer h1{
+  	font-size: 20px !important;
+  	padding-top: 10px;
+}
+#pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+.card-bg{
+  background-color: rgb(17, 30, 108);
+}
+.card-title{
+  color: rgb(17, 30, 108);
+}
+.icon{
+  color: rgb(200,8,21);
+}
+.f-img{
+  width: 100%;
+  height:300px
+}
+div.f-center{
+  text-align: center;
+}
+.s-img{
+  width: 100%;
+  height:40vh;
+}
+#events{
+  margin-top: 100px;
+}
+#schools ,#anthem{
+background-color: #e6e6e6;
+color: black;
+}
+
+#objectives{
+  margin-top: 50px;
+}
+#schools{
+  margin-top: 100px;
+}
+
+/* div.nursery{
+  border: 1px solid #cccccc;
+  padding: 20px;
+} */
+
+footer{
+  background-color: #fecd1a;
+  background-image: linear-gradient(360deg,#fecd1a);
+  padding: 20px;
+}
+.form-btn{
+  background-color: rgb(17, 30, 108);
+}
+a.none:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+.g-img{
+  width: 100%;
+  height: 60vh;
+}
+.btn-drop:hover{
+  background-color: black;
+}
+.btn-close:hover{
+  background-color: black;
+}
+p.drop , p.drop2{
+  font-size: 15px;
+}
+a.text{
+  text-align:center;
+}
+
+
+
+
+/* font-styles */
+p , span , h1 , h2 , h3 , h4 , h5 , a , h6 , ul , li , small{
+    font-family:  courier,arial,helvetica "Georgia";
+}
+.smallS{
+    margin-top:90px;
+}
+[placeholder], [value] {
+  font-family:  "Poppins";
+}
+
+
+
+
+
+
+/* media queries */
+
+
+
+@media screen and (max-width: 480px) {
+    .smallS{
+        margin-top: 0px;
+        font-size: 30px;
+        font-weight: bold;
+      
+    }
+    .hide{
+        display: none;
+    }
+   div.collapse.block{
+     display: block;
+   }
+   div.text-center{
+     text-align: right;
+   }
+    #pointer {
+      width: 220px;
+      height: 40px;
+      position: relative;
+      background:rgb(17, 30, 108);
+      color: #fff;
+      padding-left: 30px;
+      margin-bottom: 10px;
+  
+    }
+    div.d-center{
+      text-align: left;
+    }
+    div.contact{
+      text-align: left;
+    }
+    .bg-icon{
+      /* background-color: white; */
+      color:white;
+    }
+    p.card-title{
+      text-align: left;
+    }
+    .s-img{
+      width: 100%;
+      height:20vh;
+    }
+    
+    .small-img{
+      width: 10px;
+    }
+    /* carousel styling */
+    .slide-1{
+      height: 40vh;
+      min-height: 350px;
+      /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+      background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/back3.JPG) no-repeat center center scroll; 
+      background-size: cover;
+    }
+    .slide-11{
+     height: 1vh;
+      min-height: 200px;
+      padding: 20px;
+      /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+      background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/back3.JPG) no-repeat center center scroll; 
+      background-size: cover;
+    }
+    .slide-2{
+      height: 40vh;
+      min-height: 300px;
+      /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+      background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/images/background2.jpg) no-repeat center center scroll; 
+      background-size: cover;
+    }
+    .slide-3{
+      height: 40vh;
+      min-height: 300px;
+      /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+      background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/back10.JPG) no-repeat center center scroll; 
+      background-size: cover;
+    }
+    .slide-33{
+      height: 1vh;
+      min-height: 300px;
+      padding: 30px;
+      /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+      background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/back10.JPG) no-repeat center center scroll; 
+      background-size: cover;
+    }
+    .slide-34{
+      height: 1vh;
+      min-height: 200px;
+      /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+      background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/back10.JPG) no-repeat center center scroll; 
+      background-size: cover;
+    }
+    .slide-4{
+      height: 1vh;
+      min-height: 150px;
+      padding: 30px;
+      /* background: linear-gradient(red, yellow) no-repeat center center scroll; */
+      background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,252,0.4)), url(../../assets/EDITED/lab4.JPG) no-repeat center center scroll; 
+      background-size: cover;
+    }
+    
+    .slide-5{
+      height: 1vh;
+      min-height: 200px;
+      padding: 30px;
+      background: linear-gradient(to right,rgba(17,30,108,0.3),rgba(0,0,255,0.4)), url(../../assets/EDITED/comp8.JPG) no-repeat center center scroll; 
+      background-size: cover;
+    }
+    i.flow{
+      margin-right: 10px;
+    }
+  }
